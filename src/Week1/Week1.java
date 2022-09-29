@@ -19,5 +19,11 @@ public class Week1
 
         String name = InputReader.getString("Enter your name > ");
         System.out.println("Hello " + name);
+        System.out.println("Nice to meet you!");
+
+        int ID = InputReader.getInt("Enter your ID: ");
+        System.out.println("Your ID is " + ID);
+        String ps = InputReader.getString("Enter your password: ");
+        System.out.println("Your password is " + ps);
     } 
 }
